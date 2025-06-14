@@ -1,5 +1,5 @@
 pipeline {
-    agent my-app
+    agent {label "my-app"}
 
     environment {
         DOCKER_IMAGE = "samratsooraj/forkflyss:latest"
